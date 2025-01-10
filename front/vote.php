@@ -45,7 +45,7 @@ function checkVote() {
         setTimeout(function() {
 			location.href = '?do=que'; // 返回問卷頁面首頁
             //location.reload(); // 重新載入當前頁面
-        }, 1000); // 2000毫秒即2秒後執行
+        }, 1000); // 1000毫秒即1秒後執行
 
         return false; // 阻止表單提交
     }
