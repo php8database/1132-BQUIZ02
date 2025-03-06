@@ -5,9 +5,9 @@
 </style>
 
 <fieldset>
-    <legend>目前位置：首頁 > 最新文章區</legend>
+    <legend class='navbar navbar-expand-lg bg-body-tertiary'>目前位置：首頁 > 最新文章區</legend>
 
-    <table style="width: 100%;">
+    <table style="width: 100%;" class='table table-hover table-bordered'>
         <tr>
             <th width="20%">標題</th>
             <th width="60%">內容</th>

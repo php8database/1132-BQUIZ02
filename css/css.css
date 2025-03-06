@@ -35,12 +35,12 @@ a:hover
 }
 #all
 {
-	padding: 2px;
+	/* padding: 2px;
 	width: 1024px;
 	height: 768px;
 	background: #FFF;
 	margin: 10px auto 10px auto;
-	box-shadow: #999 0px 0px 1px .3px;
+	box-shadow: #999 0px 0px 1px .3px; */
 	position: relative;
 }
 #title
@@ -50,6 +50,13 @@ a:hover
 	font-size:10px;
 	color:#999;
 }
+
+/* 新增讓 icon 和首頁解析度大小一致顯示 */
+#title2 img {
+    width: 100%;
+    height: auto;
+}
+
 #lef
 {
 	width:18.2%;
@@ -69,7 +76,8 @@ a:hover
 #main
 {
 	display:inline-block;
-	width:78%;
+	width:80.5%; /* 配合 #title2 img */
+	/* width:78%; 原本的設定 */
 	height:515px;
 	padding:4px;
 	border:solid 1px #000000;
